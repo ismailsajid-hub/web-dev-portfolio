@@ -1,0 +1,12 @@
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
