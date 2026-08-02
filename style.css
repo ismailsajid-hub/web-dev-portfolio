@@ -1,12 +1,45 @@
-
-
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+header{
+    border: 1px solid red;
+}
 nav{
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
+    padding: 15px 0;
+    max-width: 1200px;
+    margin: auto;
+}
+.logo{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.logo-r{
+    color: #FD6E0A;
 }
 ul{
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn-1{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 10px;
 }
